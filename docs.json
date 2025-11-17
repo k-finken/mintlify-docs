@@ -22,7 +22,8 @@
             "pages": [
               "essentials/settings",
               "essentials/navigation",
-              "newmarkdownfile"
+              "essentials/testing",
+              "essentials/testing2"
             ]
           },
           {
