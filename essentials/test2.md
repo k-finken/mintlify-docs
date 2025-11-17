@@ -9,3 +9,4 @@ icon: "gear"
 This is a standard markdown page and should work
 This is a markdown update and should work.
 check vale
+check vale
