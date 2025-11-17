@@ -28,3 +28,11 @@ This is the the test file with repeated words.
 The button was clicked by the user.
 
 This has some mispeled words and incorect grammar.
+
+Anthropic's
+
+Anthropic's
+
+Claude Code is Anthropic's official CLI tool. This guide will help you set up Claude Code to help you write and maintain your documentation.
+
+Anthropic's
