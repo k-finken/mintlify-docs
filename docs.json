@@ -22,7 +22,8 @@
             "pages": [
               "essentials/settings",
               "essentials/navigation",
-              "testfile"
+              "essentials/test",
+              "essentials/test2"
             ]
           },
           {
