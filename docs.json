@@ -15,15 +15,18 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
           },
           {
             "group": "Customization",
             "pages": [
               "essentials/settings",
               "essentials/navigation",
-              "essentials/testing",
-              "essentials/testing2"
+              "essentials/testing"
             ]
           },
           {
@@ -50,7 +53,9 @@
         "groups": [
           {
             "group": "API documentation",
-            "pages": ["api-reference/introduction"]
+            "pages": [
+              "api-reference/introduction"
+            ]
           },
           {
             "group": "Endpoint examples",
