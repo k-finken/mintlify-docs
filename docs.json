@@ -26,7 +26,8 @@
             "pages": [
               "essentials/settings",
               "essentials/navigation",
-              "essentials/testing"
+              "essentials/testing",
+              "essentials/Title"
             ]
           },
           {
