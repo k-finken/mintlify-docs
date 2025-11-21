@@ -11,7 +11,8 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 <ResponseField name="name" type="string" required>
   Name of your project. Used for the global title.
 
-  Example: `mintlify`
+Example: `mintlify`
+
 </ResponseField>
 
 <ResponseField name="navigation" type="Navigation[]" required>
@@ -28,6 +29,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 
       Example: `["customization", "page"]`
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
@@ -76,6 +78,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
         </ResponseField>
       </Expandable>
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
@@ -91,6 +94,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
     <ResponseField name="url" type="string">
       The url once you click on the button. Example: `https://mintlify.com/docs`
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
@@ -107,11 +111,13 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
     <ResponseField name="name" type="string">
       Text inside the button. Only required if `type` is a `link`.
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
 <ResponseField name="versions" type="string[]">
-  Array of version names. Only use this if you want to show different versions of docs with a dropdown in the navigation bar.
+  Array of version names. Only use this if you want to show different versions
+  of docs with a dropdown in the navigation bar.
 </ResponseField>
 
 <ResponseField name="anchors" type="Anchor[]">
@@ -143,6 +149,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
     <ResponseField name="iconType" type="string" default="duotone">
       One of: "brands", "duotone", "light", "sharp-solid", "solid", or "thin"
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
@@ -177,6 +184,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 
 <ResponseField name="api" type="API">
   Configuration for API settings. Learn more about API pages at [API Components](/api-playground/demo).
+  test link [drafts](/drafts/draft). This is a test link.
 
   <Expandable title="API">
     <ResponseField name="baseUrl" type="string">
@@ -217,29 +225,28 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
         This behavior will soon be enabled by default, at which point this field will be deprecated.
       </Warning>
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
 <ResponseField name="openapi" type="string | string[]">
   A string or an array of strings of URL(s) or relative path(s) pointing to your OpenAPI file.
 
-  Examples:
+Examples:
 
   <CodeGroup>
 
-  ```json Absolute
-  "openapi": "https://example.com/openapi.json"
-  ```
+```json Absolute
+"openapi": "https://example.com/openapi.json"
+```
 
-  
-  ```json Relative
-  "openapi": "/openapi.json"
-  ```
+```json Relative
+"openapi": "/openapi.json"
+```
 
-  
-  ```json Multiple
-  "openapi": ["https://example.com/openapi1.json", "/openapi2.json", "/openapi3.json"]
-  ```
+```json Multiple
+"openapi": ["https://example.com/openapi1.json", "/openapi2.json", "/openapi3.json"]
+```
 
   </CodeGroup>
 </ResponseField>
@@ -247,14 +254,14 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 <ResponseField name="footerSocials" type="FooterSocials">
   An object of social media accounts where the key:property pair represents the social media platform and the account url.
 
-  Example:
+Example:
 
-  ```json
-  {
-    "x": "https://x.com/mintlify",
-    "website": "https://mintlify.com"
-  }
-  ```
+```json
+{
+  "x": "https://x.com/mintlify",
+  "website": "https://mintlify.com"
+}
+```
 
   <Expandable title="FooterSocials">
     <ResponseField name="[key]" type="string">
@@ -267,6 +274,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 
       Example: `https://x.com/mintlify`
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
@@ -302,7 +310,7 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
       }
       ```
 
-      
+
       ```json Only Light Mode
       "modeToggle": {
         "default": "light",
@@ -312,11 +320,13 @@ Every Mintlify site needs a `docs.json` file with the core configuration setting
 
       </CodeGroup>
     </ResponseField>
+
   </Expandable>
 </ResponseField>
 
 <ResponseField name="backgroundImage" type="string">
-  A background image to be displayed behind every page. See example with [Infisical](https://infisical.com/docs) and [FRPC](https://frpc.io).
+  A background image to be displayed behind every page. See example with
+  [Infisical](https://infisical.com/docs) and [FRPC](https://frpc.io).
 </ResponseField>
 
 /

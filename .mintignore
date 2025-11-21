@@ -1,0 +1,7 @@
+drafts/
+
+# Test files
+test*.mdx
+*.test.mdx
+test/
+*test*.mdx
