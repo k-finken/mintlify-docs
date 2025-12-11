@@ -1,0 +1,57 @@
+---
+title: "Test Mixed Import Paths"
+description: "Testing both absolute and relative snippet imports in the same file"
+---
+
+import SnippetIntroAbsolute from '/snippets/snippet-intro.mdx';
+import SnippetIntroRelative from '../snippets/snippet-intro.mdx';
+import NestedAbsolute from '/snippets/nested/nested-snippet.mdx';
+import NestedRelative from '../snippets/nested/nested-snippet.mdx';
+import { testVariable as absoluteVar } from '/snippets/variables-snippet.mdx';
+import { testObject as relativeObj } from '../snippets/variables-snippet.mdx';
+
+# Mixed Import Path Tests
+
+This file tests using **both absolute and relative** imports in the same file.
+
+---
+
+## Test 1: Absolute Import
+
+<SnippetIntroAbsolute />
+
+---
+
+## Test 2: Relative Import
+
+<SnippetIntroRelative />
+
+---
+
+## Test 3: Absolute Nested Import
+
+<NestedAbsolute />
+
+---
+
+## Test 4: Relative Nested Import
+
+<NestedRelative />
+
+---
+
+## Test 5: Variable Imports - Absolute
+
+**Absolute variable:** {absoluteVar}
+
+---
+
+## Test 6: Variable Imports - Relative
+
+**Relative object:** Status is "{relativeObj.status}"
+
+---
+
+<Check>
+If you can see all the content above, **mixed absolute and relative imports** are working correctly!
+</Check>

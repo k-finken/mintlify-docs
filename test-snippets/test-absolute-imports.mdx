@@ -1,0 +1,55 @@
+---
+title: "Test Absolute Path Imports"
+description: "Testing absolute path snippet imports (/snippets/...)"
+---
+
+import SnippetIntro from "/snippets/snippet-intro.mdx";
+import TestSnippet from "/snippets/test-snippet.mdx";
+import NestedSnippet from "/snippets/nested/nested-snippet.mdx";
+import DeepNestedSnippet from "/snippets/nested/deep/deep-nested-snippet.mdx";
+import { testVariable, testObject } from "/snippets/variables-snippet.mdx";
+
+# Absolute Path Import Tests
+
+This file tests **absolute path** snippet imports.
+
+---
+
+## Test 1: Existing Snippet Import (Absolute)
+
+Testing the existing `snippet-intro.mdx` with absolute path:
+
+<SnippetIntro />
+
+---
+
+## Test 2: Test Snippet with Props (Absolute)
+
+<TestSnippet word="ABSOLUTE PATH SUCCESS" />
+
+---
+
+## Test 3: Nested Snippet Import (Absolute)
+
+<NestedSnippet />
+
+---
+
+## Test 4: Deeply Nested Snippet Import (Absolute)
+
+<DeepNestedSnippet />
+
+---
+
+## Test 5: Variable Export Import (Absolute)
+
+**Variable value:** {testVariable}
+
+**Object values:** Status is "{testObject.status}", Type is "{testObject.type}"
+
+---
+
+<Check>
+  If you can see all the content above, **absolute path imports** are working
+  correctly!
+</Check>

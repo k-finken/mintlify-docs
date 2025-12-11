@@ -39,6 +39,16 @@
               "ai-tools/windsurf",
               "ai-tools/supertest"
             ]
+          },
+          {
+            "group": "Snippet Import Tests",
+            "pages": [
+              "test-snippets/index",
+              "test-snippets/test-absolute-imports",
+              "test-snippets/test-relative-imports",
+              "test-snippets/test-mixed-imports",
+              "test-snippets/nested-tests/test-deep-relative-imports"
+            ]
           }
         ]
       },
